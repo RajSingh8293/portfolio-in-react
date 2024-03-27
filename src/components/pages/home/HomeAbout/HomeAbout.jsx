@@ -1,6 +1,5 @@
 import React from 'react'
 import '../../About/AboutStyle.css'
-import aboutImg from '../../../../assets/rajprofilepic.png'
 import Heading from '../../../headings/Heading'
 
 const HomeAbout = ({ img }) => {
