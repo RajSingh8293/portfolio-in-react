@@ -1,8 +1,9 @@
 import React from 'react'
 import '../../About/AboutStyle.css'
 import Heading from '../../../headings/Heading'
+import img from '../../../../assets/rajprofilepic.png'
 
-const HomeAbout = ({ img }) => {
+const HomeAbout = () => {
   return (
     <div className=" ">
       <div className="home_about lg:mt-0 lg:bg-slate-600 about_section md:mt-10 sm:mt-10 col about flex items-center justify-between w-[100%] px-10 py-12 lg:gap-10 md:gap-5  text-white">
