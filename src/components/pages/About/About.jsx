@@ -1,5 +1,4 @@
 import React from 'react'
-import './AboutStyle.css'
 import OthersHero from '../../OthersHero/OthersHero'
 import HomeAbout from '../home/HomeAbout/HomeAbout'
 import image from '../../../Images/services_img.jpg'
