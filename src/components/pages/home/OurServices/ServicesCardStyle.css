@@ -1,0 +1,42 @@
+/* .cards {
+  animation-delay: 1s;
+}
+.cards:nth-child(2) {
+  animation-delay: 1.5s;
+} */
+
+.card {
+  background-color: #333333;
+  /* animation-delay: 1s; */
+  color: #fff;
+}
+
+.card_1 {
+  animation-delay: 1s;
+}
+.card_2 {
+  animation-delay: 2s;
+}
+.card_3 {
+  animation-delay: 3s;
+}
+
+.anim {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup {
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* @media (max-width: 640px) {
+	.cards {
+	  display: flex;
+	  flex-wrap: wrap;
+	}
+  } */
