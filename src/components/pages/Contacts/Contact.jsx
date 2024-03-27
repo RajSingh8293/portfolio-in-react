@@ -1,9 +1,9 @@
 import React from 'react'
 import image from '../../../Images/services_img.jpg'
 import OthersHero from '../../OthersHero/OthersHero'
+import Heading from '../../Headings/Heading'
 import Contactme from './Contactme'
 import Contactform from './Contactform'
-import Heading from '../../Headings/Heading'
 
 const Contact = () => {
   return (

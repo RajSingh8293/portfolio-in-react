@@ -10,8 +10,9 @@ import Blogs from './components/pages/Blogs/Blogs'
 import BlogPartOne from './components/pages/Blogs/BlogPartOne'
 import BlogPartTwo from './components/pages/Blogs/BlogPartTwo'
 import Nopage from './components/pages/Nopage/Nopage'
-import Contact from './components/pages/contact/Contact'
+// import Contact from './components/pages/contacts/Contact'
 import About from './components/pages/about/About'
+import Contact from './components/pages/Contacts/Contact'
 
 const App = () => {
   return (
