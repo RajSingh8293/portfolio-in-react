@@ -1,15 +1,15 @@
 import React from 'react'
-import { FaGithub } from 'react-icons/fa'
-import { IoLocationOutline } from 'react-icons/io5'
-import { MdOutlineMailOutline } from 'react-icons/md'
+import GitHubIcon from '@mui/icons-material/GitHub'
+import LocationOnIcon from '@mui/icons-material/LocationOn'
+import MailOutlineIcon from '@mui/icons-material/MailOutline'
 import { NavLink } from 'react-router-dom'
 
-const ContactMe = () => {
+const Contactme = () => {
   return (
     <div className="flex w-[100%] py-5  text-white flex-col gap-6 rounded">
       <div className="flex items-center gap-8 ">
         <span>
-          <IoLocationOutline className="w-[30px] h-[30px]" />
+          <LocationOnIcon className="w-[30px] h-[30px]" />
         </span>
         <span>
           <p>Delhi, India</p>
@@ -17,7 +17,7 @@ const ContactMe = () => {
       </div>
       <div className="flex items-center gap-8 ">
         <span>
-          <MdOutlineMailOutline className="w-[30px] h-[30px]" />
+          <MailOutlineIcon className="w-[30px] h-[30px]" />
         </span>
         <span>
           <NavLink to="https://mail.google.com/mail/u/0/#inbox">
@@ -27,7 +27,7 @@ const ContactMe = () => {
       </div>
       <div className="flex items-center gap-8 ">
         <span>
-          <FaGithub className="w-[30px] h-[30px]" />
+          <GitHubIcon className="w-[30px] h-[30px]" />
         </span>
         <span>
           <NavLink to="https://github.com/RajSingh8293">
@@ -39,4 +39,4 @@ const ContactMe = () => {
   )
 }
 
-export default ContactMe
+export default Contactme
