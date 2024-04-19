@@ -20,4 +20,5 @@ body {
 
 body {
   background-color: #1f2635;
+  z-index: 0;
 }
