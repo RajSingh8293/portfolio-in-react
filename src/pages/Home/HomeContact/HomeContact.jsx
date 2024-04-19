@@ -1,7 +1,7 @@
 import React from 'react'
-import Heading from '../../../components/Headings/Heading'
 import Contactme from '../../Contacts/Contactme'
 import Contactform from '../../Contacts/Contactform'
+import Heading from '../../../components/Headings/Heading'
 
 const HomeContact = () => {
   return (
