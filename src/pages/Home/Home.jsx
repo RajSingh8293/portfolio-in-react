@@ -1,10 +1,10 @@
 import React from 'react'
-import profileImg from '../../../assets/rajprofilepic.png'
+import profileImg from '../../assets/rajprofilepic.png'
 import './Home.css'
-import OurServices from '../home/ourServices/OurServices'
-import HomeAbout from './HomeAbout/HomeAbout'
+import HomeAbout from '../../components/HomeAbout/HomeAbout'
 import HomeContact from './HomeContact/HomeContact'
-import Hero from '../../Hero/Hero'
+import OurServices from './OurServices/OurServices'
+import Hero from '../../components/Hero/Hero'
 
 const Home = () => {
   return (

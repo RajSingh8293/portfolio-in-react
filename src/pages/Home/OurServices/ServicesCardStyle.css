@@ -1,16 +1,3 @@
-/* .cards {
-  animation-delay: 1s;
-}
-.cards:nth-child(2) {
-  animation-delay: 1.5s;
-} */
-
-.card {
-  background-color: #333333;
-  /* animation-delay: 1s; */
-  color: #fff;
-}
-
 .card_1 {
   animation-delay: 1s;
 }
@@ -33,10 +20,3 @@
     transform: translateY(0);
   }
 }
-
-/* @media (max-width: 640px) {
-	.cards {
-	  display: flex;
-	  flex-wrap: wrap;
-	}
-  } */

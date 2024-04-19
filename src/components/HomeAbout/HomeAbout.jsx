@@ -1,14 +1,14 @@
 import React from 'react'
-import '../../About/AboutStyle.css'
-import Heading from '../../../headings/Heading'
-import img from '../../../../assets/rajprofilepic.png'
+import '../../pages/About/AboutStyle.css'
+import Heading from '../../components/Headings/Heading'
+import img from '../../assets/rajprofilepic.png'
 
 const HomeAbout = () => {
   return (
     <div className=" ">
       <div className="home_about lg:mt-0 lg:bg-slate-600 about_section md:mt-10 sm:mt-10 col about flex items-center justify-between w-[100%] px-10 py-12 lg:gap-10 md:gap-5  text-white">
         <div className="about_image_section row lg:w-[40%] md:w-[40%]   flex justify-center items-center  my-10 mr-4 md:mb-4 ">
-          <div className="anim  about-img w-[100%] flex justify-center items-center  ">
+          <div className="hidden anim  about-img w-[100%] lg:flex md:flex justify-center items-center  ">
             <img
               src={img}
               alt=""

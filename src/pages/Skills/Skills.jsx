@@ -1,7 +1,7 @@
 import React from 'react'
 import SkillsContent from './SkillsContent'
-import OthersHero from '../../OthersHero/OthersHero'
-import image from '../../../Images/services_img.jpg'
+import OthersHero from '../../components/OthersHero/OthersHero'
+import image from '../../Images/services_img.jpg'
 
 const Skills = () => {
   return (

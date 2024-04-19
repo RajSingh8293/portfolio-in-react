@@ -1,7 +1,7 @@
 import React from 'react'
-import image from '../../../Images/services_img.jpg'
-import OthersHero from '../../OthersHero/OthersHero'
-import Heading from '../../Headings/Heading'
+import image from '../../Images/services_img.jpg'
+import OthersHero from '../../components/OthersHero/OthersHero'
+import Heading from '../../components/Headings/Heading'
 import Contactme from './Contactme'
 import Contactform from './Contactform'
 

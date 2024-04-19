@@ -37,7 +37,7 @@ const HeroContent = ({ heading, heading_2, content, span }) => {
           </button>
         </div>
 
-        <div className='contact-me'>
+        <div className="contact-me">
           <button className="anim btn contact-btn bg-green-400 px-10 py-2 rounded">
             Contact me
           </button>

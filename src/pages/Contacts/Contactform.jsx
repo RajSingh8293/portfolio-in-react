@@ -3,7 +3,7 @@ import React from 'react'
 const Contactform = () => {
   return (
     <div>
-      <div className=" w-[100%] md:w-[100%]  lg:w-[100%] sm:w-[100%]">
+      <div className="w-[100%] md:w-[100%]  lg:w-[100%] sm:w-[100%]">
         <form className="flex flex-col gap-6 ">
           <div className="input-field w-[100%] h-[20px]">
             <input

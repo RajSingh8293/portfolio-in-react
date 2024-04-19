@@ -1,7 +1,7 @@
 import React from 'react'
-import OthersHero from '../../OthersHero/OthersHero'
+import OthersHero from '../../components/OthersHero/OthersHero'
 
-import image from '../../../Images/services_img.jpg'
+import image from '../../Images/services_img.jpg'
 import BlogCard from './BlogCard'
 
 const Blogs = () => {

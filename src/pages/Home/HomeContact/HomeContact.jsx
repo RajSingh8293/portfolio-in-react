@@ -1,5 +1,5 @@
 import React from 'react'
-import Heading from '../../../Headings/Heading'
+import Heading from '../../../components/Headings/Heading'
 import Contactme from '../../Contacts/Contactme'
 import Contactform from '../../Contacts/Contactform'
 

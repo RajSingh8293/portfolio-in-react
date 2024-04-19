@@ -1,5 +1,4 @@
 import React from 'react'
-
 import HeroContent from './HeroContent'
 
 const Hero = ({ heading, heading_2, content, span, image }) => {

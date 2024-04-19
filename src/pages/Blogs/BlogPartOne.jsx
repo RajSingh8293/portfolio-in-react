@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Heading from '../../Heading/Heading'
+import Heading from '../../components/Heading/Heading'
 import {
   cd,
   codeString,
@@ -13,8 +13,8 @@ import {
   packageJson,
 } from './BlogContent'
 import ServerCode from './ServerCode'
-import OthersHero from '../../OthersHero/OthersHero'
-import image from '../../../Images/services_img.jpg'
+import OthersHero from '../../components/OthersHero/OthersHero'
+import image from '../../Images/services_img.jpg'
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight'
 
 const BlogPartOne = () => {
